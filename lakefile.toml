@@ -1,0 +1,56 @@
+name = "TauPrimeValues"
+version = "0.1.0"
+defaultTargets = ["TauSquareLayer", "TauFourthLayer"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.32.2"
+
+[[lean_lib]]
+name = "TauDefinition"
+[[lean_lib]]
+name = "TauAssembly"
+[[lean_lib]]
+name = "TauArithmetic"
+[[lean_lib]]
+name = "TauCoprime"
+[[lean_lib]]
+name = "TauTarget"
+[[lean_lib]]
+name = "TauSignedAbc"
+[[lean_lib]]
+name = "TauRadical"
+[[lean_lib]]
+name = "TauAbcAlgebra"
+[[lean_lib]]
+name = "TauSquareAbc"
+[[lean_lib]]
+name = "TauSquareLower"
+[[lean_lib]]
+name = "TauSquareHecke"
+[[lean_lib]]
+name = "TauExponent"
+[[lean_lib]]
+name = "TauPowerInvert"
+[[lean_lib]]
+name = "TauPointwiseAlgebra"
+[[lean_lib]]
+name = "TauLayerBridge"
+[[lean_lib]]
+name = "TauSquareLayer"
+[[lean_lib]]
+name = "TauFourthAbc"
+[[lean_lib]]
+name = "TauFourthBranch"
+[[lean_lib]]
+name = "TauFourthExtract"
+[[lean_lib]]
+name = "TauFourthExponent"
+[[lean_lib]]
+name = "TauFourthExceptions"
+[[lean_lib]]
+name = "TauFourthLayer"
